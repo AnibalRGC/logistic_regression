@@ -1,0 +1,14 @@
+[package]
+name = "logistic_regression"
+version = "0.1.0"
+authors = ["Rafaël Gameiro Contente <rafael.contente@momagroup.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+plotters = "^0.3.0"
+hdf5 = "^0.7.1"
+ndarray = "^0.14.0"
+image = "^0.23.14"
+tiff ="*"
